@@ -1,0 +1,48 @@
+* {
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* box-sizing: border-box; */
+  margin: 40px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  @media screen {
+    
+  }
+}
+body {
+  background-color: royalblue;
+  display: flex;
+  justify-items: left;
+}
+button{
+    border-radius: 30px;
+    border-style: hidden;
+}
+.align {
+  display: flex;
+  justify-items: auto;
+  /* box-sizing: border-box; */
+  align-content: center;
+}
+.one {
+  background-color: orange;
+}
+.two {
+  background-color: seagreen;
+}
+.three {
+  background-color: teal;
+}
+.btn1 {
+  color: orange;
+  font-size: 15px;
+}
+.btn2 {
+  color: seagreen;
+  font-size: 15px;
+}
+.btn3 {
+  color: teal;
+  font-size: 15px;
+}
